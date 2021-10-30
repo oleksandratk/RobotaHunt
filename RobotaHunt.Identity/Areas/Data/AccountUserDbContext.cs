@@ -16,7 +16,7 @@ namespace RobotaHunt.Identity.Data
         
         //TODO pick this connection string from configs
         public AccountUserDbContext()
-            : base("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=job-hunt-identity;Integrated Security=True;MultipleActiveResultSets=true")
+            : base("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=robota-hunt-identity;Integrated Security=True;MultipleActiveResultSets=true")
         {
         }
 
